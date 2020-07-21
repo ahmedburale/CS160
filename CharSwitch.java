@@ -16,19 +16,19 @@ public class CharSwitch {
        {
          
            case 'p': 
-           System.out.println("\n Pass "); 
+           System.out.println("Pass"); 
            break;
           
            case 'f': 
-           System.out.println("\n Fail "); 
+           System.out.println("Fail"); 
            break;
           
            case 'i': 
-           System.out.println("\n Incomplete "); 
+           System.out.println("Incomplete"); 
            break;
           
            default: 
-           System.out.println("\n Data Error "); 
+           System.out.println("Invalid Value"); 
            break;
        }
     
