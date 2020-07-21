@@ -8,7 +8,7 @@ public class CharSwitch {
        //Declare input user
        Scanner stdIn = new Scanner(System.in);
       
-       System.out.print("\n Enter Code: ");
+       System.out.println("Enter Code: ");
        code = stdIn.next().charAt(0);
       
        //Switch declaration
